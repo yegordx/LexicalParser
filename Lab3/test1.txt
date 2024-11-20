@@ -1,0 +1,10 @@
+using System;
+
+class Program {
+    static void Main() {
+        int a = 42;
+        double pi = 3.14;
+        string message = "Hello, World!";
+        char symbol = 'a';
+    }
+}

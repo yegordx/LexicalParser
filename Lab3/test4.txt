@@ -1,0 +1,19 @@
+using System;
+
+class Program {
+    /*
+        This is a multi-line comment
+        describing the program functionality.
+    */
+    static void Main() {
+        int x = 10;
+        int y = 20;
+
+        /*
+            The following code adds the values of x and y.
+            Then it prints the result.
+        */
+        int result = x + y;
+        Console.WriteLine("The result is: " + result);
+    }
+}

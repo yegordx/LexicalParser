@@ -1,0 +1,14 @@
+using System;
+
+class Program {
+    static void Main() {
+        int a = 10;
+        int b = 5;
+        int sum = a + b; // додавання
+        int product = a * b; // множення
+
+        // Виведення результатів
+        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("Product: " + product);
+    }
+}

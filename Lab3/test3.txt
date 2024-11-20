@@ -1,0 +1,20 @@
+#define PI 3.14159
+
+using System;
+
+class Program {
+    static void Main() {
+        #if PI
+        Console.WriteLine("The value of PI is: " + PI);
+        #endif
+
+        int a = 5;
+        int b = 10;
+
+        if (a < b) {
+            Console.WriteLine("a is less than b");
+        } else {
+            Console.WriteLine("a is greater than or equal to b");
+        }
+    }
+}
